@@ -1,0 +1,68 @@
+html{color:#000;
+		background:#fff;
+		padding:20px 0;
+		font: 12px/18px "¸¼Àº °íµñ", "Malgun Gothic", "±¼¸²", "Gulim", Verdan, Arial, Tahoma;
+}
+
+#header{
+	width:100%;
+	height:150px;
+	margin:0px;
+	background-color:#006600;;
+	font: 80px "¸¼Àº °íµñ", "Malgun Gothic", "±¼¸²", "Gulim", Verdan, Arial, Tahoma;
+}
+
+#body {
+	width:100%px;
+	height:100%;
+	padding:10px;
+	background-color:#CCCCCC;
+}
+
+#wrap {
+	width:100%px; 
+	height:100%px;
+	margin:10px 0 0 0;
+	padding:20px;
+	background-color:white;
+}
+
+#left{float:left;}
+
+#left a{color:#888; text-align:justify; margin:5px 30px;}
+
+#right_top{margin:0 0 0 10px;}
+
+#right_middle a{text-decoration:none;}
+
+span.gray{color:#888; margin:0 5px 0 0;}
+
+#navi {
+  width:            100%; 
+  height:           30px;
+  background-color: #006600;
+  margin-top:10px;
+}
+#navi ul {
+	list-style:none;
+	margin:10px;
+	padding:0;
+}
+
+#navi ul li {
+	float:left;
+}
+
+#navi ul li a{
+	color:white; 
+	background-color:#003300;
+	display:block;
+	width:120px;
+	text-align:center;
+	padding:0;
+	font: bold 12px/30px "Gulim", Verdan, Arial;
+	text-decoration:none;
+	margin-right:1px;
+}
+
+#navi ul li a.selected {background-color:#009900;}
