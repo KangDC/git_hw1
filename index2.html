@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>설문조사</title>
+	<link href="./stylesheet/style.css" rel="stylesheet" type="text/css">	
+</head>
+<body>
+	<div id="body">
+		<div id="header">
+			설문조사
+		</div>
+		<div id="navi">
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="index2.html" class="selected">설문조사</a></li>
+				<li><a href="index3.html">학점보기</a></li>
+			</ul>
+		</div>
+		<div id="wrap">
+			<form action="/update.php" method="post">
+			<table border="1">
+				<caption><b>설문조사</b></caption>
+				<tbody>
+					<tr>
+						<td><b>이름</b></td>
+						<td>
+							<input type="text" name="name" size="15"/>
+						</td>
+					</tr>
+					<tr>
+						<td><b>성별</b></td>
+						<td>
+							<input type="radio" name="sex" value="m">남 
+							<input type="radio" name="sex" value="f">여
+						</td>
+					</tr>
+					<tr>
+						<td><b>취미</b></td>
+						<td>
+							<input type="checkbox" name="hoby" value="book">책 
+							<input type="checkbox" name="hoby" value="movie">영화 
+							<input type="checkbox" name="hoby" value="drama">드라마<br>
+							<input type="checkbox" name="hoby" value="music">음악 
+							<input type="checkbox" name="hoby" value="art">예술 
+							<input type="checkbox" name="hoby" value="exercise">운동 
+						</td>
+					<tr>
+						<td><b>거주지역</b></td>
+						<td>
+							<select name="residence">
+							<option value="seoul">서울</option>
+							<option value="Gg">경기</option>
+							<option value="Dg">경상</option>
+							<option value="Jn">전라</option>
+							<option value="Cc">충청</option>
+							<option value="Gw">강원</option>
+						</td>
+					</tr>
+					<tr>
+						<td><b>강대철과 <br> 친한 정도</b></td>
+						<td>
+							<input type="radio" name="friendly" value="5">매우 친함 
+							<input type="radio" name="friendly" value="4">친함
+							<input type="radio" name="friendly" value="3">보통
+						<br>
+							<input type="radio" name="friendly" value="2">안 친함
+							<input type="radio" name="friendly" value="1">매우 안 친함
+						</td>
+					</tr>
+					<tr>
+						<td><b>강대철에게 <br> 하고 싶은 말</b></td>
+						<td>
+							<textarea cols="30" rows="5" name="intro"></textarea><br/>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		<input type="submit" value="저장하기"/>
+		</form>
+		<ul>
+			<li><a href="index.html">Home으로 </a></li>
+			<li><a href="index3.html">학점 보기</a></li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>
